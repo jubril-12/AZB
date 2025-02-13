@@ -72,6 +72,24 @@
     background-color: black;
     padding-top: 50px;
 }
+.onclic button{
+    background-color: red;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    font-family: var(--pop);
+    font-family: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.onclic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
 @media(max-width:800px){
     .mail{
         flex-direction: column;

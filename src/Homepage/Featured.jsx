@@ -28,7 +28,7 @@ const Featured = () => {
             <span>(916) 282-7816</span>
           </Link>
         </p>
-        <Link >
+        <Link to="/comp">
           <button onClick="window.location.reload();">Learn More</button>
         </Link>
         

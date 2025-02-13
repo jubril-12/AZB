@@ -1,6 +1,7 @@
 import React from "react";
 import "../Marketing/form.css";
 import www1 from "../assets/7.png";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   return (
@@ -27,8 +28,11 @@ const Form = () => {
             <label htmlFor="message">Message</label>
             <input id="message" type="text" />
           </form>
-          <button>Submit</button>
-        </div>
+          <Link className="onclic" onClick="window.location.reload();">
+          <button >Submit</button>
+        
+          </Link>
+          </div>
       </div>
       
     </div>
