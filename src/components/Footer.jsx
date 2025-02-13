@@ -27,16 +27,16 @@ const Footer = () => {
         <div className="foot">
           <h6 className="nak">Quick Menu</h6>
           <div className="darkx">
-          <Link id="darkxx" to="/">
+          <Link onClick="window.location.reload();" id="darkxx" to="/">
             <p>Home </p>
           </Link>
-          <Link id="darkxx"  to="/ser">
+          <Link onClick="window.location.reload();" id="darkxx"  to="/ser">
             <p>Services</p>
           </Link>
-          <Link id="darkxx"  to="/cont">
+          <Link onClick="window.location.reload();" id="darkxx"  to="/cont">
             <p>Contact</p>
           </Link>
-          <Link id="darkxx"  to="/comp">
+          <Link onClick="window.location.reload();" id="darkxx"  to="/comp">
             <p>Company</p>
             </Link>
             </div>
