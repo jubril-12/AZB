@@ -1,0 +1,142 @@
+.vas{
+    background-color: rgb(3, 3, 44);
+}
+.lev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#lev h1{
+    font-family: var(--rub);
+    font-size: 40px;
+    color: red;
+}
+#lev p{
+    width: 50%;
+    font-family: var(--pop);
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+#lev{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.pac{
+background-image: url(../assets/www.jpeg);
+width: 30%;
+background-repeat: no-repeat;
+height: 400px;
+border-radius: 50px;
+align-items: center;
+display: flex;
+flex-direction: column;
+background-size: cover;
+justify-content: center;
+}
+.par{
+background-image: url(../assets/website.jpg);
+width: 30%;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    
+}
+.par h6{
+    color: black;
+    font-family: var(--pop);
+    font-size: 40px;
+    font-weight: 600;
+}
+.pacr h6{
+    color: white;
+    font-family: var(--pop);
+    font-size: 40px;
+    font-weight: 600;
+}
+.pac h6{
+    color: white;
+    font-family: var(--pop);
+    font-size: 40px;
+    font-weight: 600;
+}
+.pacr{
+background-image: url(../assets/logo.jpg);
+width: 30%;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+}
+.car{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+#rac{
+    width: 40%;
+}
+#rac h1{
+    color: red;
+    font-family: var(--rub);
+    font-weight: 100;
+    font-size: 60px;
+}
+#rac p{
+    color: white;
+    font-family: var(--pop);
+    font-size: 20px;
+}
+#desi h6{
+    font-family: var(--rub);
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+}
+@media(max-width:800px){
+    #lev p{
+        width: 90%;
+    }
+    .car{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pac{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .par{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .pacr{
+        width: 90%;
+    }
+    .lev{
+        flex-direction: column;
+        align-items: center;
+    }
+    #rac {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #desi img{
+        width: 90vw;
+    }
+}

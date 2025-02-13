@@ -1,0 +1,51 @@
+.ball{
+    width: 500px;
+    height: 500px;
+}
+.hall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#ball{
+    width: 500px;
+}
+#ball h3{
+color: red;
+font-size: 30px;
+font-family: var(--rub);
+}
+#ball p{
+    color: grey;
+    font-family: var(--pop);
+    font-size: 15px;
+}
+#ball button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px white solid;
+    background-color: red;
+}
+#hall{
+    background-image: url(../assets/awss.png);
+    height: 60vh;
+}
+@media(max-width: 500px){
+    .ball{
+        display: none;
+    }
+    #ball h3{
+        font-size: 30px;
+    }
+    #ball{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    /* .hall{
+        align-items: center;
+        justify-content: center;
+    } */
+}

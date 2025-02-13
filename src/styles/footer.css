@@ -1,0 +1,46 @@
+#foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+.name{
+    font-family: var(--rub);
+    font-size: 30px;
+    color: red;
+}
+.name span{
+    color: white;
+}
+.foot p{
+    font-family: var(--pop);
+    font-size: 15px;
+    color: grey;
+}
+.pa{
+    background-color: rgb(26, 24, 24);
+}
+.nak{
+    font-family: var(--rub);
+        font-size: 30px;
+        color: grey;
+}
+@media(max-width: 500px){
+    #foot{
+        flex-direction: column;
+    }
+    .foot{
+        width: 90%;
+    }
+    .darkx{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+}

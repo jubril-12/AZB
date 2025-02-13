@@ -1,0 +1,52 @@
+#bal{
+    background-image: url(../assets//kln.avif);
+        padding-top: 40px;
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding-left: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.bal{
+    width: 500px;
+}
+.bal h3{
+    font-size: 60px;
+    font-family: var(--rub);
+    color: red;
+}
+.bal p{
+    font-size: 15px;
+    font-family: var(--pop);
+    color: grey;
+}
+.bal button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: white 2px solid;
+    background-color: red;
+    font-family: var(--pop);
+    font-size: 15px;
+    font-family: var(--pop);
+}
+@media(max-width:500px){
+    .bal{
+        width: 90%;
+    }
+    #bal{
+        padding-top: 10px;
+        height: 60vh;
+    }
+    #bal h3{
+        font-size: 40px;
+    }
+    .bal button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}

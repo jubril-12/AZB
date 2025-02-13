@@ -1,0 +1,32 @@
+.draxp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.draxp img{
+    width: 31.6%;
+}
+.tived{
+    background-color: black;
+}
+.cunt h1{
+    width: 25%;
+    color: red;
+    font-family: var(--rub);
+    font-size: 40px;
+    font-weight: 300;
+}
+.cunt {
+    margin-left: 30px;
+}
+.cunt p{
+    font-family: var(--pop);
+    font-size: 20px;
+    color: white;
+}
+@media(max-width:500px){
+    .cunt h1{
+        width: 80%;
+    }
+}

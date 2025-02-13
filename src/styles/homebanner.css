@@ -1,0 +1,53 @@
+.azb{
+    height: 100vh;
+    background-image: url(../assets//img.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+.azz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 200px;
+        margin-top: 200px;
+}
+.azz h2{
+    color: red;
+    font-family: var(--rub);
+    font-size: 50px;
+}
+.azz p{
+    text-align: center;
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    font-family: var(--rub);
+}
+.azz button{
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: white 2px solid;
+    background-color: red;
+    color: black;
+    font-family: var(--rub);
+}
+@media(max-width:500px){
+    .azz{
+        margin-right: 0px;
+    }
+    .azz h2{
+        font-size: 30px;
+    }
+    .azz p{
+        width: 90%;
+    }
+}

@@ -1,0 +1,55 @@
+.drac {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 60vh;
+}
+.drac p {
+  width: 90%;
+  color: black;
+  font-family: var(--pop);
+  font-size: 20px;
+  text-align: center;
+}
+.drac h6 {
+  font-family: var(--rub);
+  font-size: 30px;
+}
+.drac button {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-family: var(--pop);
+  font-size: 20px;
+}
+.whip {
+  background-image: url(../assets/img.avif);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.lka {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  
+}
+@media(max-width:800px){
+  .lka{
+    flex-direction: column;
+    align-items: center;
+  }
+  .drac{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

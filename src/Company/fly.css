@@ -1,0 +1,45 @@
+.aqw{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-between;
+}
+.fly{
+    width: 50%;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.fly h3{
+    color: red;
+    font-family: var(--rub);
+    font-size: 30px;
+}
+.fly p{
+    color: white;
+    font-size: 20px;
+    font-family: var(--pop);
+    width: 80%;
+}
+.faze{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:500px){
+    .aqw{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .faze img{
+        width: 100vw;
+    }
+    .fly{
+        width: 90%;
+    }
+    .fly p{
+        width: 100%;
+        text-align: justify;
+    }
+}

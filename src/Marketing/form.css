@@ -1,0 +1,98 @@
+.mail{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sign{
+    border: white 2px solid;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clarl{
+    width: 250px;
+    border: 1px solid white;
+}
+.sign h6{
+    font-family: var(--pop);
+    color: white;
+    font-size: 30px;
+}
+.sign p{
+    font-family: var(--pop);
+    font-size: 20px;
+    color: white;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+}
+.si{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.si h6{
+    align-items: center;
+    display: flex;
+}
+.up input{
+    width: 80%;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.274);
+    color: white;
+    padding-left: 20px;
+}
+.up label{
+    color: white;
+    margin-left: 20px;
+    font-family: var(--pop);
+    font-size: 20px;
+}
+.si h2{
+    text-align: center;
+    color: white;
+    font-family: var(--rub);
+    font-size: 30px;
+}
+.si button{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inp{
+    background-color: black;
+}
+@media(max-width:800px){
+    .mail{
+        flex-direction: column;
+    }
+    .sign{
+        width: 90%;
+        height: 50vh;
+    }
+    .sign h6{
+        font-size: 20px;
+    }
+    .sign p{
+        font-size: 15px;
+    }
+    .sign img{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .si{
+        width: 100%;
+    }
+    .up{
+        align-items: center;
+    }
+}

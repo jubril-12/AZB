@@ -1,0 +1,25 @@
+.aw{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.aws{
+    color: gray;
+    text-decoration: none;
+}
+.aws :hover{
+    color:  red;
+}
+#av{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ait{
+    background-color: black;
+}
+#laga img{
+    width: 50px;
+    height: 50px;
+}

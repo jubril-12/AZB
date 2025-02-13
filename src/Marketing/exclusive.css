@@ -1,0 +1,61 @@
+.snl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.snl h1{
+    width: 20%;
+    color: red;
+    font-family: var(--rub);
+    font-size: 70px;
+    font-weight: 300;
+}
+.dnl{
+    width: 50%;
+}
+.dnl h6{
+    font-family: var(--pop);
+    color: white;
+    font-size: 30px;
+}
+.dnl p{
+    font-family: var(--pop);
+    color: white;
+    font-size: 20px;
+}
+.sive{
+    background-color: black;
+    border: none;
+    height: 50vh;
+    margin-top: 150px;
+}
+.ing{
+    background-color: black;
+}
+@media(max-width:800px){
+    .snl{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .sive{
+        margin-top: 20px;
+        height: 70vh;
+        
+    }
+    .dnl{
+        width: 90%;
+        
+    }
+    .dnl h6{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .dnl p{
+        font-size: 15px;
+    }
+    .snl h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+        align-items: start;
+    }
+}
