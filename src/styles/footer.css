@@ -29,9 +29,13 @@
         font-size: 30px;
         color: grey;
 }
+#darkxx{
+    text-decoration: none;
+}
 @media(max-width: 500px){
     #foot{
         flex-direction: column;
+        align-items: center;
     }
     .foot{
         width: 90%;

@@ -1,33 +1,41 @@
 import React from "react";
+import "../styles/header.css";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
-import logo from "../assets/7.png"
-import "../styles/Header.css";
+import logo from "../assets/7.png";
 
 const Header = () => {
   return (
-    <div>
-      <Navbar expand="lg"  className="bg-body-dark ait">
-        <Container id="av">
-          <div>
-            <Navbar.Brand href="#home" id="laga">
+    <div className="wis">
+      <Navbar expand="md" className="bg-body-secondary">
+        <Container  id="cont">
+          <Link id="home" to="/">
+            <Navbar.Brand id="comp">
               <img src={logo} alt="" />
             </Navbar.Brand>
+          </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          </div>
-          <div>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto aw">
-              <Link to="/" className="aws">Home</Link>
-              <Link to="comp" className="aws">Company</Link>
-              <Link to="ser" className="aws">Services</Link>
-                <Link to="#contact" className="aws">Contact</Link>
-                <Link to="/mart"className="aws">Marketing</Link>
-            </Nav>
-          </Navbar.Collapse>
-          </div>
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto" id="nav">
+                <Link className="link" to="/home">
+                  Home
+                </Link>
+                <Link className="link" to="/ser">
+                  Services
+                </Link>
+                <Link className="link" to="/comp">
+                  Company 
+                </Link>
+                <Link className="link" to="/mart">
+                  Marketing
+                </Link>
+                <Link className="link" to="/cont">
+                  Contact
+                </Link>
+              </Nav>
+            </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

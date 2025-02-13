@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Header/>
           <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/ser" element={<Services/>} />
           <Route path="/comp" element={<Company />} />
           <Route path='/mart' element={<Marketing />} />
@@ -28,6 +28,7 @@ function App() {
           <Route path='/branding' element={<Branding />} />
           <Route path='website' element={<Website />} />
           <Route path='/logo' element={<Logo />} />
+          <Route path='/cont' element={ <Contact/>} />
         </Routes>
         < Footer id="contact"/>
       </Router>

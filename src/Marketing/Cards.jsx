@@ -1,5 +1,6 @@
 import React from "react";
 import "../Marketing/card.css";
+import { Link } from "react-router-dom";
 const Cards = () => {
   return (
     <div className="whip">
@@ -12,7 +13,9 @@ const Cards = () => {
             marketing designs, from banner ads, emails, logos, flyers, and
             postcards.
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
         <div className="drac">
           <img src="" alt="" />
@@ -22,7 +25,9 @@ const Cards = () => {
             interesting and appealing social media posts. Let us create and post
             to all your social media platforms.
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
         <div className="drac">
           <img src="" alt="" />
@@ -31,7 +36,9 @@ const Cards = () => {
             We will create and manage your email marketing campaigns for you and
             effectively launch them to your designated database
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
       </div>
       <div className="lka">
@@ -42,7 +49,9 @@ const Cards = () => {
             Our graphics and social media experts will create visually appealing
             content for your online presence and/or marketing collateral pieces
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
         <div className="drac">
           <img src="" alt="" />
@@ -51,7 +60,9 @@ const Cards = () => {
             Digital media banners will be made for your business, followed by
             launching paid ad campaigns .
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
         <div className="drac">
           <img src="" alt="" />
@@ -60,7 +71,9 @@ const Cards = () => {
             We will create a website tailored to your business and needs. If you
             have a domain, we are able to link your new website.
           </p>
-          <button>Book Now</button>
+          <Link to="/cont">
+            <button>Book Now</button>
+            </Link>
         </div>
       </div>
     </div>

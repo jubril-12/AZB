@@ -1,6 +1,6 @@
 import React from "react";
 import "../Marketing/form.css";
-import www1 from "../assets/www1.jpeg";
+import www1 from "../assets/7.png";
 
 const Form = () => {
   return (

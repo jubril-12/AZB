@@ -2,6 +2,7 @@ import React from "react";
 import "../Marketing/mart.css";
 import { Link } from "react-scroll";
 import fly from "../assets/fly.png"
+import Link from "react-router-dom";
 const Mart = () => {
   return (
     <div id="od">
@@ -16,9 +17,9 @@ const Mart = () => {
             basic content, is ideal for new businesses or entrepreneurs who need
             help building up their businesses.
           </p>
-          <a href="#signup">
+        <Link to="/cont">
             <button>Sign up</button>
-          </a>
+          </Link>
           
         </div>
         <div className="mart">
@@ -28,7 +29,9 @@ const Mart = () => {
             such as farming services, graphic design, photo content, social
             media, email marketing, and direct mail.
           </p>
-          <button>Sign up</button>
+          <Link to="/cont">
+            <button>Sign up</button>
+          </Link>
         </div>
         <div className="mart">
           <h4>Gold Parkage</h4>
@@ -37,7 +40,9 @@ const Mart = () => {
             direct mail, social media, email marketing, farming services,
             graphic design, and photo content.
           </p>
-          <button>Sign up</button>
+          <Link to="/cont">
+            <button>Sign up</button>
+          </Link>
         </div>
       </div>
       <div className="select">

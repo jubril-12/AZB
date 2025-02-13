@@ -1,6 +1,6 @@
 import React from "react";
 import "../Company/companyban.css";
-import www from "../assets/www1.jpeg"
+import www from "../assets/7.png"
 
 const Companyban = () => {
   return (

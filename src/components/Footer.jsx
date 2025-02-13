@@ -27,16 +27,16 @@ const Footer = () => {
         <div className="foot">
           <h6 className="nak">Quick Menu</h6>
           <div className="darkx">
-          <Link to="/">
-            <p>Company</p>
+          <Link id="darkxx" to="/home">
+            <p>Home </p>
           </Link>
-          <Link to="ser">
+          <Link id="darkxx"  to="/ser">
             <p>Services</p>
           </Link>
-          <Link to="contact">
+          <Link id="darkxx"  to="/cont">
             <p>Contact</p>
           </Link>
-          <Link to="comp">
+          <Link id="darkxx"  to="/comp">
             <p>Company</p>
             </Link>
             </div>

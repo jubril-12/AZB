@@ -1,25 +1,48 @@
-.aw{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.aws{
-    color: gray;
+.link {
     text-decoration: none;
+    color: #000;
+    font-family: var(--pop);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.aws :hover{
-    color:  red;
-}
-#av{
+
+#nav {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 500px
+}
+
+#comp img {
+    width: 100px;
+}
+
+#cont {
+    display: flex;
     justify-content: space-between;
 }
-.ait{
-    background-color: black;
+
+#home {
+    text-decoration: none;
 }
-#laga img{
-    width: 50px;
-    height: 50px;
+
+.gut {
+    height: 83px;
+    background-color: rgba(31, 31, 31, 0.85);
+    ;
+}
+
+.wis {
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+@media(max-width : 768px) {
+    #nav {
+        margin-left: 0px;
+    }
 }

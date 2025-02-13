@@ -70,10 +70,12 @@
 }
 .inp{
     background-color: black;
+    padding-top: 50px;
 }
 @media(max-width:800px){
     .mail{
         flex-direction: column;
+        align-items: center;
     }
     .sign{
         width: 90%;
