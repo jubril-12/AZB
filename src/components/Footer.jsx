@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="foot">
           <h6 className="nak">Quick Menu</h6>
           <div className="darkx">
-          <Link id="darkxx" to="/home">
+          <Link id="darkxx" to="/">
             <p>Home </p>
           </Link>
           <Link id="darkxx"  to="/ser">
