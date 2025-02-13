@@ -1,5 +1,5 @@
 .first{
-    background-image: url(../assets/logo.jpg);
+    background-image: url(../assets/10.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 85%;
@@ -33,7 +33,7 @@
     width: 80%;
 }
 .second{
-    background-image: url(../assets/website.jpg);
+    background-image: url(../assets/14.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 85%;
@@ -44,7 +44,7 @@
     margin-bottom: 50px;
 }
 .third{
-    background-image: url(../assets//letter.jpg);
+    background-image: url(../assets/4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 85%;

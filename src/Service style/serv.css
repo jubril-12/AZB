@@ -25,7 +25,7 @@
   align-items: center;  
 }
 .pac{
-background-image: url(../assets/www.jpeg);
+background-image: url(../assets/8.jpeg);
 width: 30%;
 background-repeat: no-repeat;
 height: 400px;
@@ -37,7 +37,7 @@ background-size: cover;
 justify-content: center;
 }
 .par{
-background-image: url(../assets/website.jpg);
+background-image: url(../assets/14.jpg);
 width: 30%;
     background-repeat: no-repeat;
     height: 400px;
@@ -68,7 +68,7 @@ width: 30%;
     font-weight: 600;
 }
 .pacr{
-background-image: url(../assets/logo.jpg);
+background-image: url(../assets/10.jpeg);
 width: 30%;
     background-repeat: no-repeat;
     height: 400px;
