@@ -1,8 +1,7 @@
 import React from "react";
 import "../Marketing/mart.css";
-import { Link } from "react-scroll";
-import fly from "../assets/fly.png"
-import Link from "react-router-dom";
+import fly from "../assets/fly.png";
+import { Link } from "react-router-dom";
 const Mart = () => {
   return (
     <div id="od">
