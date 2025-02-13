@@ -29,7 +29,7 @@ const Featured = () => {
           </Link>
         </p>
         <Link >
-          <button>Learn More</button>
+          <button onClick="window.location.reload();">Learn More</button>
         </Link>
         
       </div>

@@ -13,7 +13,7 @@ const Miniabout = () => {
           market, the competition, the plan for the company's branding, and a
           talent for creating a pleasing design that gets results
               </p>
-              <Link to="comp">
+              <Link onClick="window.location.reload();" to="comp">
                   <button>Learn More</button>
               </Link>
         

@@ -13,7 +13,7 @@ const Cards = () => {
             marketing designs, from banner ads, emails, logos, flyers, and
             postcards.
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>
@@ -25,7 +25,7 @@ const Cards = () => {
             interesting and appealing social media posts. Let us create and post
             to all your social media platforms.
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>
@@ -36,7 +36,7 @@ const Cards = () => {
             We will create and manage your email marketing campaigns for you and
             effectively launch them to your designated database
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>
@@ -49,7 +49,7 @@ const Cards = () => {
             Our graphics and social media experts will create visually appealing
             content for your online presence and/or marketing collateral pieces
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>
@@ -60,7 +60,7 @@ const Cards = () => {
             Digital media banners will be made for your business, followed by
             launching paid ad campaigns .
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>
@@ -71,7 +71,7 @@ const Cards = () => {
             We will create a website tailored to your business and needs. If you
             have a domain, we are able to link your new website.
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Book Now</button>
             </Link>
         </div>

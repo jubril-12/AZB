@@ -17,7 +17,7 @@ const Build = () => {
             personal experience.
           </p>
           <Link to="/work">
-          <button>Our work</button>
+          <button onClick="window.location.reload();">Our work</button>
           </Link>
           
         </div>

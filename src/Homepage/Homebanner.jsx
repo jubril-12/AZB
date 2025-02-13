@@ -14,7 +14,7 @@ const Homebanner = () => {
           design as well as logo, branding, and marketing design for clients who
           want to make a difference through their work as we do through ours.
         </p>
-        <Link to="/work">
+        <Link onClick="window.location.reload();" to="/work">
           <button>Explore</button>
         </Link>
         </div>

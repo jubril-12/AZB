@@ -22,16 +22,16 @@ const Header = () => {
                 <Link onClick="window.location.reload();" className="link" to="/">
                   Home
                 </Link>
-                <Link className="link" to="/ser">
+                <Link onClick="window.location.reload();" className="link" to="/ser">
                   Services
                 </Link>
-                <Link className="link" to="/comp">
+                <Link onClick="window.location.reload();" className="link" to="/comp">
                   Company 
                 </Link>
-                <Link className="link" to="/mart">
+                <Link onClick="window.location.reload();" className="link" to="/mart">
                   Marketing
                 </Link>
-                <Link className="link" to="/cont">
+                <Link onClick="window.location.reload();" className="link" to="/cont">
                   Contact
                 </Link>
               </Nav>

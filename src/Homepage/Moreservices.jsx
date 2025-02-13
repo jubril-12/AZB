@@ -15,7 +15,7 @@ const Moreservices = () => {
               If you are a new business start up, Then you'll need your printed
               material like brochures, letterhead and cards
             </p>
-            <Link to="/logo">
+            <Link onClick="window.location.reload();" to="/logo">
             <button>Learn More</button>
             </Link>
             
@@ -28,7 +28,7 @@ const Moreservices = () => {
               If you are a new business start up, Then you'll need your printed
               material like brochures, letterhead and cards
             </p>
-            <Link to="/website">
+            <Link onClick="window.location.reload();" to="/website">
             <button>Learn More</button>
             </Link>
             
@@ -41,7 +41,7 @@ const Moreservices = () => {
               If you are a new business start up, Then you'll need your printed
               material like brochures, letterhead and cards
             </p>
-            <Link to="/mart">
+            <Link onClick="window.location.reload();" to="/mart">
             <button>Learn More</button>
             </Link>
             

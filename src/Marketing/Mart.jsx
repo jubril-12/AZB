@@ -16,7 +16,7 @@ const Mart = () => {
             basic content, is ideal for new businesses or entrepreneurs who need
             help building up their businesses.
           </p>
-        <Link to="/cont">
+        <Link onClick="window.location.reload();" to="/cont">
             <button>Sign up</button>
           </Link>
           
@@ -28,7 +28,7 @@ const Mart = () => {
             such as farming services, graphic design, photo content, social
             media, email marketing, and direct mail.
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Sign up</button>
           </Link>
         </div>
@@ -39,7 +39,7 @@ const Mart = () => {
             direct mail, social media, email marketing, farming services,
             graphic design, and photo content.
           </p>
-          <Link to="/cont">
+          <Link onClick="window.location.reload();" to="/cont">
             <button>Sign up</button>
           </Link>
         </div>
