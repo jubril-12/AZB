@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "../Marketing/form.css";
 import www1 from "../assets/7.png";
 import { Link } from "react-router-dom";
 
 const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_e2hli6s", "template_ta91pkj", form.current, {
+        publicKey: "dqhXeFTON1mXbRpjH",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div className="inp">
       <div className="mail">
@@ -15,26 +34,20 @@ const Form = () => {
         </div>
         <div className="si">
           <h2>Sign Up</h2>
-          <form action="" className="up">
-            <label htmlFor="firstname">First Name</label>
-            <input id="fistname" type="text" />
-            <label htmlFor="lastname"> Last Name</label>
-            <input type="text" id="lastname" />
-            <label htmlFor=""></label>
-            <label htmlFor="email"> Email*</label>
-            <input type="email" id="email" />
-            <label htmlFor="company">Company</label>
-            <input type="text" id="company" />
-            <label htmlFor="message">Message</label>
-            <input id="message" type="text" />
+          <form className="up" ref={form} onSubmit={sendEmail}>
+            
+            <input type="text" name="user_name" required placeholder="enter fullname" />
+            <input type="email" name="user_email" required placeholder="enter email" />
+           
+            <input type="text" name="user_company" required placeholder="Enter company's name"/>
+            
+            <textarea name="message" placeholder="enter your message" />
+            <button onClick="window.location.reload();" className="dalza" type="submit" value="Send">
+              send
+            </button>
           </form>
-          <Link className="onclic" onClick="window.location.reload();">
-          <button >Submit</button>
-        
-          </Link>
-          </div>
+        </div>
       </div>
-      
     </div>
   );
 };

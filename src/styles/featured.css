@@ -1,6 +1,6 @@
 .lard{
     width: 35%;
-    height: 80vh;
+    height: 90vh;
     border: gray 2px solid;
     background-color: transparent;
     display: flex;
@@ -9,9 +9,10 @@
     border-radius: 20px;
 }
 .lard img{
-    height: 55%;
+    height: 50%;
     width: 95%;
     margin-top: 10px;
+    border-radius: 10px;
 }
 #fea{
     background-image: url(../assets/awss.png);
