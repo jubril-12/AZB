@@ -1,5 +1,5 @@
 .barn{
-    background-image: url(../assets/10.jpeg);
+    background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop');
     width: 95%;
     margin-top: 10px;
     height: 45%;
@@ -29,7 +29,7 @@
     border: 2px solid red;
 }
 .bark{
-    background-image: url(../assets/12.jpg);
+    background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop');
     width: 95%;
     margin-top: 10px;
         height: 45%;
@@ -63,7 +63,7 @@
         border-radius: 20px;
 }
 .bor{
-    background-image: url(../assets/3.jpeg);
+    background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop');
     width: 95%;
         height: 45%;
         background-repeat: no-repeat;
@@ -94,7 +94,7 @@
     margin-bottom: 50px;
 }
 .lan{
-    background-image: url(../assets/awss.png);
+    background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

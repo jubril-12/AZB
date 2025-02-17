@@ -1,5 +1,5 @@
 #bal{
-    background-image: url(../assets//kln.avif);
+    background-image: url('https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=2070&auto=format&fit=crop');
         padding-top: 40px;
         height: 100vh;
         background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 .bal p{
     font-size: 15px;
     font-family: var(--pop);
-    color: grey;
+    color: black;
 }
 .bal button{
     width: 150px;

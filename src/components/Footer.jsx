@@ -15,7 +15,7 @@ const Footer = () => {
             brand loyalty among their target audiences.
           </p>
           <img src="" alt="" />
-          <p>2021 by AZB GRAPHICS LLC</p>
+          <p>2021 ©️ by AZB GRAPHICS LLC</p>
         </div>
         <div className="foot">
           <h6 className="nak">Contact</h6>

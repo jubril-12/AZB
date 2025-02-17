@@ -5,8 +5,9 @@
 .hall{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: end;
+    padding-top: 100px;
+    padding-right: 100px;
 }
 #ball{
     width: 500px;
@@ -46,6 +47,9 @@ font-family: var(--rub);
 @media(max-width: 500px){
     .ball{
         display: none;
+    }
+    .hall{
+        padding-top: 20px;
     }
     #ball h3{
         font-size: 30px;

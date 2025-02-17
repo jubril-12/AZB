@@ -6,9 +6,7 @@ const Build = () => {
   return (
     <div id="hall">
       <div className="hall">
-        <div>
-          <img className="ball" src={download} alt="" />
-        </div>
+        
         <div id="ball">
           <h3>Building an image of professionalism</h3>
           <p>
